@@ -26,6 +26,12 @@ behaviour or file. A second attempt was blocked the same way. The block was not
 overridden and Play Protect was not switched off; the installation was not
 completed in that test.
 
+[VirusTotal](https://www.virustotal.com/gui/file/553f5e0637dac57546ddb6e13dbb588217b9f36b1bae68d2c36fa5b988044610)
+analysed the same file on November 24, 2026: 0 of 64 engines detected anything,
+Google's among them; nine further engines could not process the file type, which
+is not a clean result. A scanner result does not show how Play Protect on a
+device rates the app.
+
 The classification is unexplained. It is neither confirmed as a false alarm nor
 withdrawn by Google, and nothing here is a clearance. What the app asks of
 Android is listed in [PRIVACY.md](PRIVACY.md): internet access for the update
@@ -69,3 +75,10 @@ Results of real updates through the app are recorded here as they are made.
   checksum, package, version and signing certificate. Android's installer asked
   for confirmation. Google Play Protect then blocked the installation after its
   requested scan (see above); the older build stayed installed.
+- **November 24, 2026, to 1.0.0, repeated: installed after the owner's override.**
+  Play Protect showed the block again. This time the app's owner chose "Trotzdem
+  installieren" (install anyway) under "Weitere Details" on the test emulator.
+  Android then installed 1.0.0; the installed file matched the public one byte
+  for byte, the progress made before was still there, and on first opening the
+  app offered to switch its installation permission off again, which was done.
+  This shows that the update works, not that Play Protect accepts the app.

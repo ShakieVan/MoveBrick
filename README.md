@@ -19,8 +19,9 @@ brick stands in its way. Clear them all and the level is done.
 
 > [!WARNING]
 > **Google Play Protect blocked version 1.0.0 in a test on November 24, 2026**
-> ("this app may be harmful", without naming a reason). The classification is
-> unexplained and not cleared. Details: [INSTALLATION.md](INSTALLATION.md#google-play-protect).
+> ("this app may be harmful", without naming a reason). VirusTotal reported 0 of 64
+> detections for the same file. The classification is unexplained and not cleared.
+> Details: [INSTALLATION.md](INSTALLATION.md#google-play-protect).
 
 ## What you get
 
@@ -33,9 +34,14 @@ brick stands in its way. Clear them all and the level is done.
   Every level can be solved.
 - **No clock unless you want one:** playing against time is an option and is off
   at first. There is no limit of moves; a nearly clean run earns three stars.
-- **Help when you are stuck:** a hint lets a free brick flash. Once per level each,
-  you can turn all arrows around, clear five bricks, or shuffle the arrows.
-- **Colour aid:** optionally the colour of a brick shows its direction.
+- **Two kinds of level** (since 1.1.0): "Lösbar" (solvable) arranges the arrows so
+  that every figure can be cleared. "Zufall" (chance) leaves them to pure chance;
+  the figure usually gets stuck, and the app tells you when no brick can leave.
+- **Help when you are stuck:** a hint lets a free brick flash. You can also turn all
+  arrows around, clear five bricks, or shuffle the arrows: once per level each in
+  solvable levels, without limit in levels of chance.
+- **Signs as you like them:** the dot and the cross can be switched off (since
+  1.1.0), and optionally the colour of a brick shows its direction.
 - **Your level waits:** a level you leave is kept and continued later.
 - **No advertising, no purchases, no account.** The internet is used only to look
   for updates.
@@ -48,6 +54,9 @@ Android 9 or later and OpenGL ES 3.0. The app is distributed as an APK from this
 page, outside Google Play, and updates itself from here when you ask it to.
 
 ## What was checked
+
+Version 1.1.0 was played on an Android 16 emulator: both kinds of level, the
+options and the helps; it was not checked on a phone.
 
 Version 1.0.0 was played on an Android 16 emulator: the first levels to the end,
 a level of about 300 bricks, the hint and the three helps, pause, options and
@@ -66,4 +75,6 @@ license to the app. Licenses of the libraries inside the app are listed in
 
 ## Version history
 
+- **1.1.0** (November 24, 2026): a second kind of level with arrows by pure chance,
+  the dot and the cross can be switched off, figures fill the screen better.
 - **1.0.0** (November 24, 2026): first public version.
