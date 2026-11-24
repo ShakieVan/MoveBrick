@@ -37,8 +37,8 @@ brick stands in its way. Clear them all and the level is done.
   four cells. They need a free way across their whole width.
 - **No clock unless you want one:** playing against time is an option and is off
   at first. There is no limit of moves; a nearly clean run earns three stars.
-- **Two kinds of level** (since 1.1.0): "Lösbar" (solvable) arranges the arrows so
-  that every figure can be cleared. "Zufall" (chance) leaves them to pure chance;
+- **Two kinds of level** (since 1.1.0): "Solvable" arranges the arrows so
+  that every figure can be cleared. "Chance" leaves them to pure chance;
   the figure usually gets stuck, and the app tells you when no brick can leave.
 - **Concentration** (since 1.3.0, from level 15 on, can be switched off): one wrong
   move blows the whole figure up and the level starts again. Since 1.4.0 a fuse
@@ -61,7 +61,8 @@ brick stands in its way. Clear them all and the level is done.
 - **No advertising, no purchases, no account.** The internet is used only to look
   for updates.
 
-The app's texts are currently in German.
+The app speaks German and English (since 1.5.0). At first the phone's language
+decides; the options switch between the two.
 
 ## Requirements
 
@@ -70,10 +71,11 @@ page, outside Google Play, and updates itself from here when you ask it to.
 
 ## What was checked
 
-Versions 1.1.0 to 1.4.0 were played on an Android 16 emulator: both kinds of
+Versions 1.1.0 to 1.5.0 were played on an Android 16 emulator: both kinds of
 level, the options, the helps, the upright turning, the large bricks,
 concentration with its fuse, the Ultrahard mode, the wait for hints, saving
-after every move and the perspective view; they were not checked on a phone.
+after every move, the perspective view and both languages; they were not
+checked on a phone.
 
 Version 1.0.0 was played on an Android 16 emulator: the first levels to the end,
 a level of about 300 bricks, the hint and the three helps, pause, options and
@@ -92,6 +94,8 @@ license to the app. Licenses of the libraries inside the app are listed in
 
 ## Version history
 
+- **1.5.0** (November 24, 2026): German and English, chosen by the phone at first
+  and switchable in the options.
 - **1.4.0** (November 24, 2026): a fuse of five seconds before the figure blows
   up, a wait for the next hint, saving after every move, perspective view as an
   option.
