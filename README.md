@@ -41,17 +41,23 @@ brick stands in its way. Clear them all and the level is done.
   that every figure can be cleared. "Zufall" (chance) leaves them to pure chance;
   the figure usually gets stuck, and the app tells you when no brick can leave.
 - **Concentration** (since 1.3.0, from level 15 on, can be switched off): one wrong
-  move blows the whole figure up and the level starts again.
+  move blows the whole figure up and the level starts again. Since 1.4.0 a fuse
+  burns first: the brick that was hit glows and beeps for five seconds.
 - **Ultrahard** (since 1.3.0): a second mode with endless levels of its own. Only
   very large figures that grow with every level, a wrong move always blows them
   up, and there are no hints or helps. It opens once levels 1 to 20 are done with
   concentration switched on. Which level have you reached?
-- **Help when you are stuck:** a hint lets a free brick flash. You can also turn all
+- **Help when you are stuck:** a hint lets a free brick flash; since 1.4.0 the next
+  hint has to wait (15 minutes in level 1, a minute more with every level, in
+  real time). You can also turn all
   arrows around, clear five bricks, or shuffle the arrows: once per level each in
   solvable levels, without limit in levels of chance.
 - **Signs as you like them:** the dot and the cross can be switched off (since
   1.1.0), and optionally the colour of a brick shows its direction.
-- **Your level waits:** a level you leave is kept and continued later.
+- **Two views** (since 1.4.0): nearly parallel edges, much like an isometric
+  drawing, or as an option a wide-angle perspective.
+- **Your level waits:** the level is stored after every move (since 1.4.0) and
+  continued later, one for the normal levels and one for Ultrahard.
 - **No advertising, no purchases, no account.** The internet is used only to look
   for updates.
 
@@ -64,9 +70,10 @@ page, outside Google Play, and updates itself from here when you ask it to.
 
 ## What was checked
 
-Versions 1.1.0 to 1.3.0 were played on an Android 16 emulator: both kinds of
+Versions 1.1.0 to 1.4.0 were played on an Android 16 emulator: both kinds of
 level, the options, the helps, the upright turning, the large bricks,
-concentration and the Ultrahard mode; they were not checked on a phone.
+concentration with its fuse, the Ultrahard mode, the wait for hints, saving
+after every move and the perspective view; they were not checked on a phone.
 
 Version 1.0.0 was played on an Android 16 emulator: the first levels to the end,
 a level of about 300 bricks, the hint and the three helps, pause, options and
@@ -85,6 +92,9 @@ license to the app. Licenses of the libraries inside the app are listed in
 
 ## Version history
 
+- **1.4.0** (November 24, 2026): a fuse of five seconds before the figure blows
+  up, a wait for the next hint, saving after every move, perspective view as an
+  option.
 - **1.3.0** (November 24, 2026): concentration (a wrong move blows the figure up)
   and the Ultrahard mode with endless, growing levels.
 - **1.2.0** (November 24, 2026): large bricks of four cells from level 10 on; bricks
