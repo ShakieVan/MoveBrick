@@ -82,3 +82,11 @@ Results of real updates through the app are recorded here as they are made.
   for byte, the progress made before was still there, and on first opening the
   app offered to switch its installation permission off again, which was done.
   This shows that the update works, not that Play Protect accepts the app.
+- **November 24, 2026, from 1.0.0 to 1.1.0, Android 16 emulator: completed.** The
+  public 1.0.0 found 1.1.0, downloaded and verified it. After the confirmation in
+  Android's installer, Play Protect recommended a scan because it did not know
+  this version ("App-Scan empfohlen"); the scan was not requested. A second start
+  of the installation from the app was completed by Android without a further
+  Play Protect dialog. The installed file matched the public one byte for byte,
+  the progress was kept, and the app's reminder led to switching its installation
+  permission off again. This version has not been rated by a Play Protect scan.
