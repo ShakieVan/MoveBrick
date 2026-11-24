@@ -108,3 +108,8 @@ Results of real updates through the app are recorded here as they are made.
   first attempt. This time Android did not recommend a scan, and none was
   requested. File identical to the public one, a level left half done in 1.3.0
   continued, installation permission switched off again.
+- **November 24, 2026, from 1.4.0 to 1.5.0, Android 16 emulator: completed** as
+  before 1.4.0: scan recommended and not requested, first attempt discarded by
+  Android, second start installed. File identical to the public one, a level
+  left half done and a running wait for a hint kept, the language switched to
+  English afterwards, installation permission switched off again.
