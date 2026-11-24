@@ -13,9 +13,24 @@ The universal APK works on all supported phones.
 4. After installation, you can turn the source's installation permission off again.
 
 Permission to install APKs and a Google Play Protect scan are separate checks.
-Granting the first does not mean Google has approved the app. Play Protect may scan
-the app or warn about it because it comes from outside Google Play; read its message
-before you decide. No claim is made here about how Play Protect rates this app.
+Granting the first does not mean Google has approved the app.
+
+## Google Play Protect
+
+**Play Protect blocked version 1.0.0 in a test on November 24, 2026.** On an
+Android 16 emulator, during an update through the app, Android first recommended
+a scan because Play Protect did not know the app. After the scan, Play Protect
+reported "Schädliche App blockiert" (harmful app blocked) with the text "Diese
+App könnte schädlich sein" (this app may be harmful). It named no specific
+behaviour or file. A second attempt was blocked the same way. The block was not
+overridden and Play Protect was not switched off; the installation was not
+completed in that test.
+
+The classification is unexplained. It is neither confirmed as a false alarm nor
+withdrawn by Google, and nothing here is a clearance. What the app asks of
+Android is listed in [PRIVACY.md](PRIVACY.md): internet access for the update
+check and the permission to ask Android to install its own update. Read Play
+Protect's message on your device and decide for yourself.
 
 ## Updates Inside the App
 
@@ -47,5 +62,10 @@ Android refuses an update that is signed with another one.
 
 ## Update Results
 
-None yet: 1.0.0 is the first public version. Results of real updates through the
-app are recorded here as they are made.
+Results of real updates through the app are recorded here as they are made.
+
+- **November 24, 2026, to 1.0.0, Android 16 emulator: not completed.** An older
+  local test build (0.9.0) found 1.0.0, downloaded it and verified its size,
+  checksum, package, version and signing certificate. Android's installer asked
+  for confirmation. Google Play Protect then blocked the installation after its
+  requested scan (see above); the older build stayed installed.

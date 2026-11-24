@@ -17,6 +17,11 @@ brick stands in its way. Clear them all and the level is done.
 **[Download the latest version](https://github.com/ShakieVan/MoveBrick/releases/latest)**
 · [Installing and updating](INSTALLATION.md) · [Privacy](PRIVACY.md)
 
+> [!WARNING]
+> **Google Play Protect blocked version 1.0.0 in a test on November 24, 2026**
+> ("this app may be harmful", without naming a reason). The classification is
+> unexplained and not cleared. Details: [INSTALLATION.md](INSTALLATION.md#google-play-protect).
+
 ## What you get
 
 - **Tap, turn, zoom:** a tap sends a brick off or makes it bump into the one in its
@@ -48,7 +53,9 @@ Version 1.0.0 was played on an Android 16 emulator: the first levels to the end,
 a level of about 300 bricks, the hint and the three helps, pause, options and
 continuing a level. On a Galaxy S21 (Android 15) the start, the first level and one
 move were looked at. Sound, vibration and the two-finger gestures were not checked
-before publication. Update results are listed in [INSTALLATION.md](INSTALLATION.md).
+before publication. An update to 1.0.0 through the app was downloaded and verified
+on the emulator, but Google Play Protect blocked its installation; see
+[INSTALLATION.md](INSTALLATION.md#update-results).
 
 ## About this repository
 
