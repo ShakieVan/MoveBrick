@@ -94,3 +94,7 @@ Results of real updates through the app are recorded here as they are made.
   Play Protect dialog. The installed file matched the public one byte for byte,
   the progress was kept, and the app's reminder led to switching its installation
   permission off again. This version has not been rated by a Play Protect scan.
+- **November 24, 2026, from 1.1.0 to 1.1.1, Android 16 emulator: completed** in the
+  same way: scan recommended and not requested, first attempt discarded by
+  Android ("App wurde nicht installiert"), second start installed. File identical
+  to the public one, progress kept, installation permission switched off again.
