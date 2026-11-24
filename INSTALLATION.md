@@ -32,6 +32,10 @@ Google's among them; nine further engines could not process the file type, which
 is not a clean result. A scanner result does not show how Play Protect on a
 device rates the app.
 
+An appeal with this result was sent to Google through its Play Protect appeals
+form on November 24, 2026. Google confirmed only that it was received and states
+that it does not answer appeals.
+
 The classification is unexplained. It is neither confirmed as a false alarm nor
 withdrawn by Google, and nothing here is a clearance. What the app asks of
 Android is listed in [PRIVACY.md](PRIVACY.md): internet access for the update
