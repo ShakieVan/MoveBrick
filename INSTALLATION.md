@@ -101,3 +101,6 @@ Results of real updates through the app are recorded here as they are made.
 - **November 24, 2026, from 1.1.1 to 1.2.0, Android 16 emulator: completed** in the
   same way. File identical to the public one, progress kept, a level started,
   installation permission switched off again.
+- **November 24, 2026, from 1.2.0 to 1.3.0, Android 16 emulator: completed** in the
+  same way. File identical to the public one, progress kept (the older progress
+  without a seal is accepted), installation permission switched off again.
