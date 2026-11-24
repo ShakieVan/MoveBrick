@@ -40,6 +40,12 @@ brick stands in its way. Clear them all and the level is done.
 - **Two kinds of level** (since 1.1.0): "Lösbar" (solvable) arranges the arrows so
   that every figure can be cleared. "Zufall" (chance) leaves them to pure chance;
   the figure usually gets stuck, and the app tells you when no brick can leave.
+- **Concentration** (since 1.3.0, from level 15 on, can be switched off): one wrong
+  move blows the whole figure up and the level starts again.
+- **Ultrahard** (since 1.3.0): a second mode with endless levels of its own. Only
+  very large figures that grow with every level, a wrong move always blows them
+  up, and there are no hints or helps. It opens once levels 1 to 20 are done with
+  concentration switched on. Which level have you reached?
 - **Help when you are stuck:** a hint lets a free brick flash. You can also turn all
   arrows around, clear five bricks, or shuffle the arrows: once per level each in
   solvable levels, without limit in levels of chance.
@@ -58,9 +64,9 @@ page, outside Google Play, and updates itself from here when you ask it to.
 
 ## What was checked
 
-Versions 1.1.0 to 1.2.0 were played on an Android 16 emulator: both kinds of
-level, the options, the helps, the upright turning and the large bricks; they
-were not checked on a phone.
+Versions 1.1.0 to 1.3.0 were played on an Android 16 emulator: both kinds of
+level, the options, the helps, the upright turning, the large bricks,
+concentration and the Ultrahard mode; they were not checked on a phone.
 
 Version 1.0.0 was played on an Android 16 emulator: the first levels to the end,
 a level of about 300 bricks, the hint and the three helps, pause, options and
@@ -79,6 +85,8 @@ license to the app. Licenses of the libraries inside the app are listed in
 
 ## Version history
 
+- **1.3.0** (November 24, 2026): concentration (a wrong move blows the figure up)
+  and the Ultrahard mode with endless, growing levels.
 - **1.2.0** (November 24, 2026): large bricks of four cells from level 10 on; bricks
   touch without gaps.
 - **1.1.1** (November 24, 2026): turning keeps the figure upright.
