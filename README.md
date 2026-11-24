@@ -26,7 +26,8 @@ brick stands in its way. Clear them all and the level is done.
 ## What you get
 
 - **Tap, turn, zoom:** a tap sends a brick off or makes it bump into the one in its
-  way. Drag to turn the figure, use two fingers to zoom and to shift it.
+  way. Drag to turn the figure, use two fingers to zoom and to shift it. Since
+  1.1.1 the figure stays upright while you turn it: up is always up.
 - **Readable from every side:** an arrow shows where a brick goes. A dot means it
   comes towards you, a cross means it goes away from you.
 - **Endless levels:** they are computed, start with a handful of bricks and grow to
@@ -55,8 +56,9 @@ page, outside Google Play, and updates itself from here when you ask it to.
 
 ## What was checked
 
-Version 1.1.0 was played on an Android 16 emulator: both kinds of level, the
-options and the helps; it was not checked on a phone.
+Versions 1.1.0 and 1.1.1 were played on an Android 16 emulator: both kinds of
+level, the options, the helps and the upright turning; they were not checked on a
+phone.
 
 Version 1.0.0 was played on an Android 16 emulator: the first levels to the end,
 a level of about 300 bricks, the hint and the three helps, pause, options and
@@ -75,6 +77,7 @@ license to the app. Licenses of the libraries inside the app are listed in
 
 ## Version history
 
+- **1.1.1** (November 24, 2026): turning keeps the figure upright.
 - **1.1.0** (November 24, 2026): a second kind of level with arrows by pure chance,
   the dot and the cross can be switched off, figures fill the screen better.
 - **1.0.0** (November 24, 2026): first public version.
