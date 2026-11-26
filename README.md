@@ -27,7 +27,9 @@ brick stands in its way. Clear them all and the level is done.
 
 - **Tap, turn, zoom:** a tap sends a brick off or makes it bump into the one in its
   way. Drag to turn the figure, use two fingers to zoom and to shift it. Since
-  1.1.1 the figure stays upright while you turn it: up is always up.
+  1.1.1 the figure stays upright while you turn it: up is always up. Since 1.5.1
+  two fingers zoom in on the spot between them and shift the view, and the
+  figure turns around what is in the middle of the screen.
 - **Readable from every side:** an arrow shows where a brick goes. A dot means it
   comes towards you, a cross means it goes away from you.
 - **Endless levels:** they are computed, start with a handful of bricks and grow to
@@ -71,6 +73,12 @@ page, outside Google Play, and updates itself from here when you ask it to.
 
 ## What was checked
 
+For version 1.5.1 the gestures of two fingers were played by a test tool that
+sends finger movements, not by a hand: zooming, shifting, turning and a hint in
+a shifted view, with a test build on a Galaxy S10 (Android 16, LineageOS) on a
+figure of 155 bricks in both views, and zooming, shifting and turning with the
+published file on an Android 16 emulator.
+
 Versions 1.1.0 to 1.5.0 were played on an Android 16 emulator: both kinds of
 level, the options, the helps, the upright turning, the large bricks,
 concentration with its fuse, the Ultrahard mode, the wait for hints, saving
@@ -94,6 +102,8 @@ license to the app. Licenses of the libraries inside the app are listed in
 
 ## Version history
 
+- **1.5.1** (November 26, 2026): two fingers shift the view and zoom in on the
+  spot between them; the figure turns around what is in the middle of the screen.
 - **1.5.0** (November 24, 2026): German and English, chosen by the phone at first
   and switchable in the options.
 - **1.4.0** (November 24, 2026): a fuse of five seconds before the figure blows
