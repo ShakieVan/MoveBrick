@@ -113,3 +113,9 @@ Results of real updates through the app are recorded here as they are made.
   Android, second start installed. File identical to the public one, a level
   left half done and a running wait for a hint kept, the language switched to
   English afterwards, installation permission switched off again.
+- **November 26, 2026, from 1.5.0 to 1.5.1, Android 16 emulator: completed** in
+  the same way: scan recommended and not requested, first attempt discarded by
+  Android ("App not installed"), second start installed. File identical to the
+  public one, a level left half done kept, installation permission switched off
+  again. In this test the permission was switched on and off with a developer
+  tool, not in Android's settings.
